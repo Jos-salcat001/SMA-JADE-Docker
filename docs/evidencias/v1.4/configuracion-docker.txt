@@ -1,0 +1,87 @@
+name: sma-jade-docker
+services:
+  jade-p1:
+    container_name: jade-p1
+    command:
+      - -gui
+      - -platform-id
+      - P1
+      - -host
+      - jade-p1
+      - -port
+      - "1099"
+      - -mtp
+      - jade.mtp.http.MessageTransportProtocol(http://jade-p1:7778/acc)
+      - -agents
+      - demanda:agentes.AgenteDemanda
+    environment:
+      DISPLAY: :0
+    hostname: jade-p1
+    image: sma-jade:1.4-gui
+    networks:
+      sma-network: null
+    volumes:
+      - type: bind
+        source: /mnt/wslg/.X11-unix
+        target: /tmp/.X11-unix
+        read_only: true
+        bind: {}
+    build:
+      context: /mnt/c/Proyectos/SMA-JADE-Docker
+      dockerfile: Dockerfile
+    ports:
+      - mode: ingress
+        host_ip: 127.0.0.1
+        target: 1099
+        published: "1099"
+        protocol: tcp
+      - mode: ingress
+        host_ip: 127.0.0.1
+        target: 7778
+        published: "7778"
+        protocol: tcp
+  jade-p2:
+    container_name: jade-p2
+    command:
+      - -gui
+      - -platform-id
+      - P2
+      - -host
+      - jade-p2
+      - -port
+      - "1099"
+      - -mtp
+      - jade.mtp.http.MessageTransportProtocol(http://jade-p2:7778/acc)
+      - -agents
+      - inventario:agentes.AgenteInventario;abastecimiento:agentes.AgenteAbastecimiento(dinamico);coordinador:agentes.AgenteCoordinador
+    environment:
+      DISPLAY: :0
+    hostname: jade-p2
+    image: sma-jade:1.4-gui
+    networks:
+      sma-network: null
+    volumes:
+      - type: bind
+        source: /mnt/wslg/.X11-unix
+        target: /tmp/.X11-unix
+        read_only: true
+        bind: {}
+    depends_on:
+      jade-p1:
+        condition: service_started
+        required: true
+    ports:
+      - mode: ingress
+        host_ip: 127.0.0.1
+        target: 1099
+        published: "1100"
+        protocol: tcp
+      - mode: ingress
+        host_ip: 127.0.0.1
+        target: 7778
+        published: "7779"
+        protocol: tcp
+networks:
+  sma-network:
+    name: sma-network
+    driver: bridge

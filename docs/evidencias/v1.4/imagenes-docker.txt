@@ -1,0 +1,9 @@
+IMAGE                       ID             DISK USAGE   CONTENT SIZE   EXTRA
+sma-jade:1.0                a2a5f65b1adf        432MB          112MB        
+sma-jade:1.0-validado       a2a5f65b1adf        432MB          112MB        
+sma-jade:1.1-gui            6030ec01ab8c        438MB          114MB        
+sma-jade:1.1-gui-validado   6030ec01ab8c        438MB          114MB        
+sma-jade:1.2-gui            be2a0e956a18        438MB          114MB        
+sma-jade:1.3-gui            5dbefdb9a30d        438MB          114MB        
+sma-jade:1.4-gui            5e59471533eb        438MB          114MB   U    
+sma-jade:1.4-gui-validado   5e59471533eb        438MB          114MB   U    

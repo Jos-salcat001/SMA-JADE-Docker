@@ -1,0 +1,51 @@
+# Compilacion Maven
+/target/
+*.class
+
+# Respaldos del proyecto
+/backups/
+/respaldo-*/
+/docs/respaldo-*/
+*.bak
+*.backup.yml
+*.backup
+* - copia.java
+
+# Archivos generados por JADE
+APDescription.txt
+MTPs-*.txt
+
+# Documentacion temporal
+/docs/codigo-fuente-actual.txt
+/docs/log-plataforma-*.txt
+/docs/evidencia-contenedores.txt
+
+# Archivos de entorno y credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Entornos de desarrollo
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Evidencias historicas
+/docs/evidencias/*
+!/docs/evidencias/v1.4/
+!/docs/evidencias/v1.4/**

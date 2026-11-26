@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>pe.edu.fisi</groupId>
+    <artifactId>sma-jade-docker</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <name>Sistema Multiagente Distribuido</name>
+
+    <description>
+        Sistema multiagente para la gestion de demanda,
+        inventarios y abastecimiento mediante JADE y Docker.
+    </description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>11</java.version>
+        <maven.compiler.release>${java.version}</maven.compiler.release>
+    </properties>
+
+    <dependencies>
+
+        <!-- Plataforma de agentes JADE -->
+        <dependency>
+            <groupId>net.sf.ingenias</groupId>
+            <artifactId>jade</artifactId>
+            <version>4.3</version>
+        </dependency>
+
+        <!-- Pruebas unitarias -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.9.2</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <build>
+        <plugins>
+
+            <!-- Compilacion Java -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.14.1</version>
+            </plugin>
+
+            <!-- Pruebas unitarias -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M8</version>
+            </plugin>
+
+            <!-- Ejecucion de clases Java -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.5.0</version>
+            </plugin>
+
+            <!-- Gestion de dependencias -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.8.1</version>
+            </plugin>
+
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,97 @@
+﻿services:
+
+  # ========================================
+  # PLATAFORMA JADE P1
+  # ========================================
+
+  jade-p1:
+
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    image: sma-jade:1.4-gui
+
+    container_name: jade-p1
+
+    hostname: jade-p1
+
+    environment:
+      DISPLAY: "${DISPLAY:-:0}"
+
+    volumes:
+      - /mnt/wslg/.X11-unix:/tmp/.X11-unix:ro
+
+    ports:
+      - "127.0.0.1:1099:1099"
+      - "127.0.0.1:7778:7778"
+
+    command:
+      - "-gui"
+      - "-platform-id"
+      - "P1"
+      - "-host"
+      - "jade-p1"
+      - "-port"
+      - "1099"
+      - "-mtp"
+      - "jade.mtp.http.MessageTransportProtocol(http://jade-p1:7778/acc)"
+      - "-agents"
+      - "demanda:agentes.AgenteDemanda"
+
+    networks:
+      - sma-network
+
+
+  # ========================================
+  # PLATAFORMA JADE P2
+  # ========================================
+
+  jade-p2:
+
+    image: sma-jade:1.4-gui
+
+    container_name: jade-p2
+
+    hostname: jade-p2
+
+    depends_on:
+      - jade-p1
+
+    environment:
+      DISPLAY: "${DISPLAY:-:0}"
+
+    volumes:
+      - /mnt/wslg/.X11-unix:/tmp/.X11-unix:ro
+
+    ports:
+      - "127.0.0.1:1100:1099"
+      - "127.0.0.1:7779:7778"
+
+    command:
+      - "-gui"
+      - "-platform-id"
+      - "P2"
+      - "-host"
+      - "jade-p2"
+      - "-port"
+      - "1099"
+      - "-mtp"
+      - "jade.mtp.http.MessageTransportProtocol(http://jade-p2:7778/acc)"
+      - "-agents"
+      - "inventario:agentes.AgenteInventario;abastecimiento:agentes.AgenteAbastecimiento(dinamico);coordinador:agentes.AgenteCoordinador"
+
+    networks:
+      - sma-network
+
+
+# ==========================================
+# RED DE COMUNICACION DISTRIBUIDA
+# ==========================================
+
+networks:
+
+  sma-network:
+    name: sma-network
+    driver: bridge
+

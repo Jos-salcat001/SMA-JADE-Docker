@@ -1,0 +1,1022 @@
+jade-p1  | Picked up JAVA_TOOL_OPTIONS: -Djava.awt.headless=false
+jade-p1  | Nov 26, 2026 2:26:59 AM jade.core.Runtime beginContainer
+jade-p1  | INFO: ----------------------------------
+jade-p1  |     This is JADE 4.3.3 - revision 6726 of 2014/12/09 09:33:02
+jade-p1  |     downloaded in Open Source, under LGPL restrictions,
+jade-p1  |     at http://jade.tilab.com/
+jade-p1  | ----------------------------------------
+jade-p1  | Nov 26, 2026 2:26:59 AM jade.imtp.leap.LEAPIMTPManager initialize
+jade-p1  | INFO: Listening for intra-platform commands on address:
+jade-p1  | - jicp://jade-p1:1099
+jade-p1  | 
+jade-p1  | Nov 26, 2026 2:26:59 AM jade.core.BaseService init
+jade-p1  | INFO: Service jade.core.management.AgentManagement initialized
+jade-p1  | Nov 26, 2026 2:26:59 AM jade.core.BaseService init
+jade-p1  | INFO: Service jade.core.messaging.Messaging initialized
+jade-p1  | Nov 26, 2026 2:26:59 AM jade.core.BaseService init
+jade-p1  | INFO: Service jade.core.resource.ResourceManagement initialized
+jade-p1  | Nov 26, 2026 2:26:59 AM jade.core.BaseService init
+jade-p1  | INFO: Service jade.core.mobility.AgentMobility initialized
+jade-p1  | Nov 26, 2026 2:26:59 AM jade.core.BaseService init
+jade-p1  | INFO: Service jade.core.event.Notification initialized
+jade-p1  | Nov 26, 2026 2:26:59 AM jade.mtp.http.HTTPServer <init>
+jade-p1  | INFO: HTTP-MTP Using XML parser com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser
+jade-p1  | Nov 26, 2026 2:26:59 AM jade.core.messaging.MessagingService boot
+jade-p1  | INFO: MTP addresses:
+jade-p2  | Picked up JAVA_TOOL_OPTIONS: -Djava.awt.headless=false
+jade-p2  | Nov 26, 2026 2:26:59 AM jade.core.Runtime beginContainer
+jade-p2  | INFO: ----------------------------------
+jade-p2  |     This is JADE 4.3.3 - revision 6726 of 2014/12/09 09:33:02
+jade-p2  |     downloaded in Open Source, under LGPL restrictions,
+jade-p2  |     at http://jade.tilab.com/
+jade-p2  | ----------------------------------------
+jade-p2  | Nov 26, 2026 2:26:59 AM jade.imtp.leap.LEAPIMTPManager initialize
+jade-p2  | INFO: Listening for intra-platform commands on address:
+jade-p2  | - jicp://jade-p2:1099
+jade-p2  | 
+jade-p2  | Nov 26, 2026 2:26:59 AM jade.core.BaseService init
+jade-p2  | INFO: Service jade.core.management.AgentManagement initialized
+jade-p2  | Nov 26, 2026 2:26:59 AM jade.core.BaseService init
+jade-p2  | INFO: Service jade.core.messaging.Messaging initialized
+jade-p2  | Nov 26, 2026 2:26:59 AM jade.core.BaseService init
+jade-p2  | INFO: Service jade.core.resource.ResourceManagement initialized
+jade-p2  | Nov 26, 2026 2:26:59 AM jade.core.BaseService init
+jade-p2  | INFO: Service jade.core.mobility.AgentMobility initialized
+jade-p2  | Nov 26, 2026 2:26:59 AM jade.core.BaseService init
+jade-p2  | INFO: Service jade.core.event.Notification initialized
+jade-p2  | Nov 26, 2026 2:26:59 AM jade.mtp.http.HTTPServer <init>
+jade-p2  | INFO: HTTP-MTP Using XML parser com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser
+jade-p2  | Nov 26, 2026 2:26:59 AM jade.core.messaging.MessagingService boot
+jade-p2  | INFO: MTP addresses:
+jade-p2  | http://jade-p2:7778/acc
+jade-p2  | Nov 26, 2026 2:26:59 AM jade.core.AgentContainerImpl joinPlatform
+jade-p2  | INFO: --------------------------------------
+jade-p2  | Agent container Main-Container@jade-p2 is ready.
+jade-p2  | --------------------------------------------
+jade-p2  | [INVENTARIO] Agente iniciado: inventario@P2
+jade-p2  | [ABASTECIMIENTO] Agente iniciado: abastecimiento@P2
+jade-p2  | [ABASTECIMIENTO] Version 1.2
+jade-p2  | [INVENTARIO] Version 1.2
+jade-p2  | [COORDINADOR] Agente iniciado: coordinador@P2
+jade-p2  | [COORDINADOR] Version 1.4
+jade-p2  | [INVENTARIO] Servicio registrado en DF
+jade-p2  | [INVENTARIO] Disponible para escenarios
+jade-p2  | [COORDINADOR] Servicio registrado en DF
+jade-p2  | [COORDINADOR] Disponible para escenarios
+jade-p2  | [ABASTECIMIENTO] Servicio registrado en DF
+jade-p2  | [ABASTECIMIENTO] Modo dinamico activo
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | [COORDINADOR] Servicio encontrado: inventario@P2
+jade-p2  | [COORDINADOR] Servicio encontrado: abastecimiento@P2
+jade-p2  | [INVENTARIO] Servicio remoto encontrado
+jade-p2  | [INVENTARIO] Agente remoto: demanda@P1
+jade-p2  | [INVENTARIO] ACL REQUEST enviado a: demanda@P1
+jade-p2  | [INVENTARIO] Conversacion: escenario-2578db2d-f724-4933-b22c-d47607f52a8a
+jade-p2  | [INVENTARIO] Solicitud: PROD-001;100,120,140
+jade-p2  | [INVENTARIO] ACL INFORM recibido
+jade-p2  | [INVENTARIO] Conversacion: escenario-2578db2d-f724-4933-b22c-d47607f52a8a
+jade-p2  | [INVENTARIO] Producto: PROD-001
+jade-p2  | [INVENTARIO] Demanda recibida: 120
+jade-p2  | [INVENTARIO] Stock disponible: 70
+jade-p2  | [INVENTARIO] Stock de seguridad: 20
+jade-p2  | [INVENTARIO] Reposicion necesaria: 70 unidades
+jade-p2  | [INVENTARIO] ALERTA: Se requiere abastecimiento
+jade-p2  | [COORDINADOR] Nuevo escenario: escenario-85d9f8cf-9607-4d7f-a1b8-bab3e871f413
+jade-p2  | [COORDINADOR] ACL REQUEST enviado a: inventario@P2
+jade-p2  | [COORDINADOR] Conversacion: escenario-85d9f8cf-9607-4d7f-a1b8-bab3e871f413
+jade-p2  | [COORDINADOR] Etapa: INVENTARIO
+jade-p2  | [INVENTARIO] ACL REQUEST enviado a: demanda@P1
+jade-p2  | [INVENTARIO] Conversacion: escenario-85d9f8cf-9607-4d7f-a1b8-bab3e871f413
+jade-p2  | [INVENTARIO] Solicitud: PROD-001;100,120,140
+jade-p2  | [COORDINADOR] Datos: PROD-001;100,120,140;70;20
+jade-p2  | [INVENTARIO] ACL INFORM recibido
+jade-p2  | [INVENTARIO] Conversacion: escenario-85d9f8cf-9607-4d7f-a1b8-bab3e871f413
+jade-p2  | [INVENTARIO] Producto: PROD-001
+jade-p2  | [INVENTARIO] Demanda recibida: 120
+jade-p2  | [INVENTARIO] Stock disponible: 70
+jade-p2  | [INVENTARIO] Stock de seguridad: 20
+jade-p2  | [INVENTARIO] Reposicion necesaria: 70 unidades
+jade-p2  | [INVENTARIO] ALERTA: Se requiere abastecimiento
+jade-p2  | [INVENTARIO] Respuesta enviada: PROD-001;120;70
+jade-p2  | [COORDINADOR] ACL INFORM recibido de: inventario@P2
+jade-p2  | [COORDINADOR] Pronostico: 120
+jade-p2  | [COORDINADOR] Reposicion necesaria: 70
+jade-p2  | [COORDINADOR] ACL REQUEST enviado a: abastecimiento@P2
+jade-p2  | [COORDINADOR] Conversacion: escenario-85d9f8cf-9607-4d7f-a1b8-bab3e871f413
+jade-p2  | [COORDINADOR] Etapa: ABASTECIMIENTO
+jade-p2  | [COORDINADOR] Datos: PROD-001;70
+jade-p2  | [ABASTECIMIENTO] Solicitud recibida de: coordinador@P2
+jade-p2  | [ABASTECIMIENTO] Conversacion: escenario-85d9f8cf-9607-4d7f-a1b8-bab3e871f413
+jade-p2  | ======================================
+jade-p2  |  RECOMENDACION DE ABASTECIMIENTO
+jade-p2  | ======================================
+jade-p2  | Estado: PROVEEDOR_SELECCIONADO
+jade-p2  | Producto: PROD-001
+jade-p2  | Cantidad: 70 unidades
+jade-p2  | Proveedor: Proveedor C
+jade-p2  | Precio unitario: S/ 16.00
+jade-p2  | Costo total: S/ 1120.00
+jade-p2  | Plazo de entrega: 1 dias
+jade-p2  | Puntaje obtenido: 0.9375
+jade-p2  | ======================================
+jade-p2  | [ABASTECIMIENTO] Respuesta ACL enviada: PROVEEDOR_SELECCIONADO;PROD-001;70;Proveedor C;16.00;1120.00;1;0.9375
+jade-p2  | [COORDINADOR] ACL INFORM recibido de: abastecimiento@P2
+jade-p2  | ==========================================
+jade-p2  |  RESULTADO INTEGRAL DEL ESCENARIO
+jade-p2  | ==========================================
+jade-p2  | Escenario: escenario-85d9f8cf-9607-4d7f-a1b8-bab3e871f413
+jade-p2  | Producto: PROD-001
+jade-p2  | Ventas historicas: 100,120,140
+jade-p2  | Pronostico: 120
+jade-p2  | Stock actual: 70
+jade-p1  | http://jade-p1:7778/acc
+jade-p1  | Nov 26, 2026 2:26:59 AM jade.core.AgentContainerImpl joinPlatform
+jade-p1  | INFO: --------------------------------------
+jade-p1  | Agent container Main-Container@jade-p1 is ready.
+jade-p1  | --------------------------------------------
+jade-p1  | [DEMANDA] Agente iniciado: demanda@P1
+jade-p1  | [DEMANDA] Version 1.2
+jade-p1  | [DEMANDA] Servicio registrado en DF
+jade-p1  | [DEMANDA] Disponible para nuevos escenarios
+jade-p1  | [DEMANDA] Solicitud recibida de: inventario@P2
+jade-p2  | Stock de seguridad: 20
+jade-p2  | Reposicion necesaria: 70
+jade-p2  | Estado: PROVEEDOR_SELECCIONADO
+jade-p2  | Proveedor: Proveedor C
+jade-p2  | Precio unitario: S/ 16.00
+jade-p2  | Costo total: S/ 1120.00
+jade-p2  | Plazo de entrega: 1 dias
+jade-p2  | Puntaje obtenido: 0.9375
+jade-p2  | ==========================================
+jade-p2  | [COORDINADOR] Escenario finalizado: escenario-85d9f8cf-9607-4d7f-a1b8-bab3e871f413
+jade-p2  | [COORDINADOR] Nuevo escenario: escenario-6e8fa86e-0ea9-4812-986f-704cd9733653
+jade-p2  | [COORDINADOR] ACL REQUEST enviado a: inventario@P2
+jade-p2  | [COORDINADOR] Conversacion: escenario-6e8fa86e-0ea9-4812-986f-704cd9733653
+jade-p2  | [COORDINADOR] Etapa: INVENTARIO
+jade-p2  | [COORDINADOR] Datos: PROD-001;100,120,140;180;20
+jade-p2  | [INVENTARIO] ACL REQUEST enviado a: demanda@P1
+jade-p2  | [INVENTARIO] Conversacion: escenario-6e8fa86e-0ea9-4812-986f-704cd9733653
+jade-p2  | [INVENTARIO] Solicitud: PROD-001;100,120,140
+jade-p2  | [INVENTARIO] ACL INFORM recibido
+jade-p2  | [INVENTARIO] Conversacion: escenario-6e8fa86e-0ea9-4812-986f-704cd9733653
+jade-p2  | [INVENTARIO] Producto: PROD-001
+jade-p2  | [INVENTARIO] Demanda recibida: 120
+jade-p2  | [INVENTARIO] Stock disponible: 180
+jade-p2  | [INVENTARIO] Stock de seguridad: 20
+jade-p2  | [INVENTARIO] Reposicion necesaria: 0 unidades
+jade-p2  | [INVENTARIO] Inventario suficiente
+jade-p2  | [INVENTARIO] Respuesta enviada: PROD-001;120;0
+jade-p2  | [COORDINADOR] ACL INFORM recibido de: inventario@P2
+jade-p2  | [COORDINADOR] Pronostico: 120
+jade-p2  | [COORDINADOR] Reposicion necesaria: 0
+jade-p2  | ==========================================
+jade-p2  |  RESULTADO INTEGRAL DEL ESCENARIO
+jade-p2  | ==========================================
+jade-p2  | Escenario: escenario-6e8fa86e-0ea9-4812-986f-704cd9733653
+jade-p2  | Producto: PROD-001
+jade-p2  | Ventas historicas: 100,120,140
+jade-p2  | Pronostico: 120
+jade-p2  | Stock actual: 180
+jade-p2  | Stock de seguridad: 20
+jade-p2  | Reposicion necesaria: 0
+jade-p2  | Estado: NO_REQUIERE_COMPRA
+jade-p1  | [DEMANDA] Conversacion: escenario-2578db2d-f724-4933-b22c-d47607f52a8a
+jade-p1  | [DEMANDA] Producto: PROD-001
+jade-p1  | [DEMANDA] Ventas historicas: [100, 120, 140]
+jade-p1  | [DEMANDA] Pronostico: 120 unidades
+jade-p1  | [DEMANDA] Respuesta enviada: PROD-001;120
+jade-p1  | [DEMANDA] Solicitud recibida de: inventario@P2
+jade-p1  | [DEMANDA] Conversacion: escenario-85d9f8cf-9607-4d7f-a1b8-bab3e871f413
+jade-p1  | [DEMANDA] Producto: PROD-001
+jade-p1  | [DEMANDA] Ventas historicas: [100, 120, 140]
+jade-p1  | [DEMANDA] Pronostico: 120 unidades
+jade-p1  | [DEMANDA] Respuesta enviada: PROD-001;120
+jade-p1  | [DEMANDA] Solicitud recibida de: inventario@P2
+jade-p1  | [DEMANDA] Conversacion: escenario-6e8fa86e-0ea9-4812-986f-704cd9733653
+jade-p1  | [DEMANDA] Producto: PROD-001
+jade-p1  | [DEMANDA] Ventas historicas: [100, 120, 140]
+jade-p1  | [DEMANDA] Pronostico: 120 unidades
+jade-p1  | [DEMANDA] Respuesta enviada: PROD-001;120
+jade-p1  | [DEMANDA] Solicitud recibida de: inventario@P2
+jade-p1  | [DEMANDA] Conversacion: escenario-0969129d-e8d6-4cce-90fd-9fadc5897680
+jade-p1  | [DEMANDA] Producto: PROD-001
+jade-p1  | [DEMANDA] Ventas historicas: [1000, 1200, 1400]
+jade-p1  | [DEMANDA] Pronostico: 1200 unidades
+jade-p1  | [DEMANDA] Respuesta enviada: PROD-001;1200
+jade-p1  | [DEMANDA] Solicitud recibida de: inventario@P2
+jade-p1  | [DEMANDA] Conversacion: escenario-16bee421-02f2-4f11-a918-97731c9b5793
+jade-p1  | [DEMANDA] Producto: PROD-001
+jade-p1  | [DEMANDA] Ventas historicas: [100, 120, 140]
+jade-p1  | [DEMANDA] Pronostico: 120 unidades
+jade-p1  | [DEMANDA] Respuesta enviada: PROD-001;120
+jade-p1  | [DEMANDA] Solicitud recibida de: inventario@P2
+jade-p1  | [DEMANDA] Conversacion: escenario-5eda5308-7b47-447e-93fa-af64a5d9c89b
+jade-p1  | [DEMANDA] Producto: PROD-001
+jade-p1  | [DEMANDA] Ventas historicas: [200, 220, 240]
+jade-p1  | [DEMANDA] Pronostico: 220 unidades
+jade-p1  | [DEMANDA] Respuesta enviada: PROD-001;220
+jade-p1  | [DEMANDA] Agente finalizado: demanda
+jade-p1  | Picked up JAVA_TOOL_OPTIONS: -Djava.awt.headless=false
+jade-p1  | Nov 26, 2026 3:34:13 AM jade.core.Runtime beginContainer
+jade-p1  | INFO: ----------------------------------
+jade-p1  |     This is JADE 4.3.3 - revision 6726 of 2014/12/09 09:33:02
+jade-p1  |     downloaded in Open Source, under LGPL restrictions,
+jade-p1  |     at http://jade.tilab.com/
+jade-p1  | ----------------------------------------
+jade-p1  | Nov 26, 2026 3:34:13 AM jade.imtp.leap.LEAPIMTPManager initialize
+jade-p1  | INFO: Listening for intra-platform commands on address:
+jade-p1  | - jicp://jade-p1:1099
+jade-p1  | 
+jade-p1  | Nov 26, 2026 3:34:14 AM jade.core.BaseService init
+jade-p1  | INFO: Service jade.core.management.AgentManagement initialized
+jade-p1  | Nov 26, 2026 3:34:14 AM jade.core.BaseService init
+jade-p1  | INFO: Service jade.core.messaging.Messaging initialized
+jade-p1  | Nov 26, 2026 3:34:14 AM jade.core.BaseService init
+jade-p1  | INFO: Service jade.core.resource.ResourceManagement initialized
+jade-p1  | Nov 26, 2026 3:34:14 AM jade.core.BaseService init
+jade-p1  | INFO: Service jade.core.mobility.AgentMobility initialized
+jade-p1  | Nov 26, 2026 3:34:14 AM jade.core.BaseService init
+jade-p1  | INFO: Service jade.core.event.Notification initialized
+jade-p1  | Nov 26, 2026 3:34:14 AM jade.mtp.http.HTTPServer <init>
+jade-p1  | INFO: HTTP-MTP Using XML parser com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser
+jade-p1  | Nov 26, 2026 3:34:14 AM jade.core.messaging.MessagingService boot
+jade-p1  | INFO: MTP addresses:
+jade-p1  | http://jade-p1:7778/acc
+jade-p1  | Nov 26, 2026 3:34:14 AM jade.core.AgentContainerImpl joinPlatform
+jade-p1  | INFO: --------------------------------------
+jade-p1  | Agent container Main-Container@jade-p1 is ready.
+jade-p1  | --------------------------------------------
+jade-p1  | [DEMANDA] Agente iniciado: demanda@P1
+jade-p1  | [DEMANDA] Version 1.2
+jade-p1  | [DEMANDA] Servicio registrado en DF
+jade-p1  | [DEMANDA] Disponible para nuevos escenarios
+jade-p1  | [DEMANDA] Solicitud recibida de: inventario@P2
+jade-p1  | [DEMANDA] Conversacion: escenario-345a4f5e-ebb6-41bb-ac6f-49c2627ac81b
+jade-p1  | [DEMANDA] Producto: PROD-001
+jade-p1  | [DEMANDA] Ventas historicas: [100, 120, 140]
+jade-p1  | [DEMANDA] Pronostico: 120 unidades
+jade-p1  | [DEMANDA] Respuesta enviada: PROD-001;120
+jade-p2  | Inventario suficiente
+jade-p2  | ==========================================
+jade-p2  | [COORDINADOR] Escenario finalizado: escenario-6e8fa86e-0ea9-4812-986f-704cd9733653
+jade-p2  | [COORDINADOR] Nuevo escenario: escenario-0969129d-e8d6-4cce-90fd-9fadc5897680
+jade-p2  | [COORDINADOR] ACL REQUEST enviado a: inventario@P2
+jade-p2  | [COORDINADOR] Conversacion: escenario-0969129d-e8d6-4cce-90fd-9fadc5897680
+jade-p2  | [COORDINADOR] Etapa: INVENTARIO
+jade-p2  | [COORDINADOR] Datos: PROD-001;1000,1200,1400;70;20
+jade-p2  | [INVENTARIO] ACL REQUEST enviado a: demanda@P1
+jade-p2  | [INVENTARIO] Conversacion: escenario-0969129d-e8d6-4cce-90fd-9fadc5897680
+jade-p2  | [INVENTARIO] Solicitud: PROD-001;1000,1200,1400
+jade-p2  | [INVENTARIO] ACL INFORM recibido
+jade-p2  | [INVENTARIO] Conversacion: escenario-0969129d-e8d6-4cce-90fd-9fadc5897680
+jade-p2  | [INVENTARIO] Producto: PROD-001
+jade-p2  | [INVENTARIO] Demanda recibida: 1200
+jade-p2  | [INVENTARIO] Stock disponible: 70
+jade-p2  | [INVENTARIO] Stock de seguridad: 20
+jade-p2  | [INVENTARIO] Reposicion necesaria: 1150 unidades
+jade-p2  | [INVENTARIO] ALERTA: Se requiere abastecimiento
+jade-p2  | [INVENTARIO] Respuesta enviada: PROD-001;1200;1150
+jade-p2  | [COORDINADOR] ACL INFORM recibido de: inventario@P2
+jade-p2  | [COORDINADOR] Pronostico: 1200
+jade-p2  | [COORDINADOR] Reposicion necesaria: 1150
+jade-p2  | [COORDINADOR] ACL REQUEST enviado a: abastecimiento@P2
+jade-p2  | [COORDINADOR] Conversacion: escenario-0969129d-e8d6-4cce-90fd-9fadc5897680
+jade-p2  | [COORDINADOR] Etapa: ABASTECIMIENTO
+jade-p2  | [COORDINADOR] Datos: PROD-001;1150
+jade-p2  | [ABASTECIMIENTO] Solicitud recibida de: coordinador@P2
+jade-p2  | [ABASTECIMIENTO] Conversacion: escenario-0969129d-e8d6-4cce-90fd-9fadc5897680
+jade-p2  | ======================================
+jade-p2  |  RECOMENDACION DE ABASTECIMIENTO
+jade-p2  | ======================================
+jade-p2  | Estado: SIN_PROVEEDOR_ELEGIBLE
+jade-p2  | Producto: PROD-001
+jade-p2  | Cantidad: 1150 unidades
+jade-p2  | No existen proveedores elegibles
+jade-p2  | ======================================
+jade-p2  | [ABASTECIMIENTO] Respuesta ACL enviada: SIN_PROVEEDOR_ELEGIBLE;PROD-001;1150;;0.00;0.00;0;0.0000
+jade-p2  | [COORDINADOR] ACL INFORM recibido de: abastecimiento@P2
+jade-p2  | ==========================================
+jade-p2  |  RESULTADO INTEGRAL DEL ESCENARIO
+jade-p2  | ==========================================
+jade-p2  | Escenario: escenario-0969129d-e8d6-4cce-90fd-9fadc5897680
+jade-p2  | Producto: PROD-001
+jade-p2  | Ventas historicas: 1000,1200,1400
+jade-p2  | Pronostico: 1200
+jade-p2  | Stock actual: 70
+jade-p2  | Stock de seguridad: 20
+jade-p2  | Reposicion necesaria: 1150
+jade-p2  | Estado: SIN_PROVEEDOR_ELEGIBLE
+jade-p2  | ALERTA: No existen proveedores con disponibilidad suficiente
+jade-p2  | ==========================================
+jade-p2  | [COORDINADOR] Escenario finalizado: escenario-0969129d-e8d6-4cce-90fd-9fadc5897680
+jade-p2  | [COORDINADOR] Nuevo escenario: escenario-16bee421-02f2-4f11-a918-97731c9b5793
+jade-p2  | [COORDINADOR] ACL REQUEST enviado a: inventario@P2
+jade-p2  | [COORDINADOR] Conversacion: escenario-16bee421-02f2-4f11-a918-97731c9b5793
+jade-p2  | [COORDINADOR] Etapa: INVENTARIO
+jade-p2  | [COORDINADOR] Datos: PROD-001;100,120,140;70;20
+jade-p2  | [INVENTARIO] ACL REQUEST enviado a: demanda@P1
+jade-p2  | [INVENTARIO] Conversacion: escenario-16bee421-02f2-4f11-a918-97731c9b5793
+jade-p2  | [INVENTARIO] Solicitud: PROD-001;100,120,140
+jade-p2  | [INVENTARIO] ACL INFORM recibido
+jade-p2  | [INVENTARIO] Conversacion: escenario-16bee421-02f2-4f11-a918-97731c9b5793
+jade-p2  | [INVENTARIO] Producto: PROD-001
+jade-p2  | [INVENTARIO] Demanda recibida: 120
+jade-p2  | [INVENTARIO] Stock disponible: 70
+jade-p2  | [INVENTARIO] Stock de seguridad: 20
+jade-p2  | [INVENTARIO] Reposicion necesaria: 70 unidades
+jade-p2  | [INVENTARIO] ALERTA: Se requiere abastecimiento
+jade-p2  | [INVENTARIO] Respuesta enviada: PROD-001;120;70
+jade-p2  | [COORDINADOR] ACL INFORM recibido de: inventario@P2
+jade-p2  | [COORDINADOR] Pronostico: 120
+jade-p2  | [COORDINADOR] Reposicion necesaria: 70
+jade-p2  | [COORDINADOR] ACL REQUEST enviado a: abastecimiento@P2
+jade-p2  | [COORDINADOR] Conversacion: escenario-16bee421-02f2-4f11-a918-97731c9b5793
+jade-p2  | [COORDINADOR] Etapa: ABASTECIMIENTO
+jade-p2  | [COORDINADOR] Datos: PROD-001;70
+jade-p2  | [ABASTECIMIENTO] Solicitud recibida de: coordinador@P2
+jade-p2  | [ABASTECIMIENTO] Conversacion: escenario-16bee421-02f2-4f11-a918-97731c9b5793
+jade-p2  | ======================================
+jade-p2  |  RECOMENDACION DE ABASTECIMIENTO
+jade-p2  | ======================================
+jade-p2  | Estado: PROVEEDOR_SELECCIONADO
+jade-p2  | Producto: PROD-001
+jade-p2  | Cantidad: 70 unidades
+jade-p2  | Proveedor: Proveedor C
+jade-p2  | Precio unitario: S/ 16.00
+jade-p2  | Costo total: S/ 1120.00
+jade-p2  | Plazo de entrega: 1 dias
+jade-p2  | Puntaje obtenido: 0.9375
+jade-p2  | ======================================
+jade-p2  | [ABASTECIMIENTO] Respuesta ACL enviada: PROVEEDOR_SELECCIONADO;PROD-001;70;Proveedor C;16.00;1120.00;1;0.9375
+jade-p2  | [COORDINADOR] ACL INFORM recibido de: abastecimiento@P2
+jade-p2  | ==========================================
+jade-p2  |  RESULTADO INTEGRAL DEL ESCENARIO
+jade-p2  | ==========================================
+jade-p2  | Escenario: escenario-16bee421-02f2-4f11-a918-97731c9b5793
+jade-p2  | Producto: PROD-001
+jade-p2  | Ventas historicas: 100,120,140
+jade-p2  | Pronostico: 120
+jade-p2  | Stock actual: 70
+jade-p2  | Stock de seguridad: 20
+jade-p2  | Reposicion necesaria: 70
+jade-p2  | Estado: PROVEEDOR_SELECCIONADO
+jade-p2  | Proveedor: Proveedor C
+jade-p2  | Precio unitario: S/ 16.00
+jade-p2  | Costo total: S/ 1120.00
+jade-p2  | Plazo de entrega: 1 dias
+jade-p2  | Puntaje obtenido: 0.9375
+jade-p2  | ==========================================
+jade-p2  | [COORDINADOR] Escenario finalizado: escenario-16bee421-02f2-4f11-a918-97731c9b5793
+jade-p2  | [COORDINADOR] Nuevo escenario: escenario-5eda5308-7b47-447e-93fa-af64a5d9c89b
+jade-p2  | [COORDINADOR] ACL REQUEST enviado a: inventario@P2
+jade-p2  | [COORDINADOR] Conversacion: escenario-5eda5308-7b47-447e-93fa-af64a5d9c89b
+jade-p2  | [COORDINADOR] Etapa: INVENTARIO
+jade-p2  | [COORDINADOR] Datos: PROD-001;200,220,240;300;30
+jade-p2  | [INVENTARIO] ACL REQUEST enviado a: demanda@P1
+jade-p2  | [INVENTARIO] Conversacion: escenario-5eda5308-7b47-447e-93fa-af64a5d9c89b
+jade-p2  | [INVENTARIO] Solicitud: PROD-001;200,220,240
+jade-p2  | [INVENTARIO] ACL INFORM recibido
+jade-p2  | [INVENTARIO] Conversacion: escenario-5eda5308-7b47-447e-93fa-af64a5d9c89b
+jade-p2  | [INVENTARIO] Producto: PROD-001
+jade-p2  | [INVENTARIO] Demanda recibida: 220
+jade-p2  | [INVENTARIO] Stock disponible: 300
+jade-p2  | [INVENTARIO] Stock de seguridad: 30
+jade-p2  | [INVENTARIO] Reposicion necesaria: 0 unidades
+jade-p2  | [INVENTARIO] Inventario suficiente
+jade-p2  | [INVENTARIO] Respuesta enviada: PROD-001;220;0
+jade-p2  | [COORDINADOR] ACL INFORM recibido de: inventario@P2
+jade-p2  | [COORDINADOR] Pronostico: 220
+jade-p2  | [COORDINADOR] Reposicion necesaria: 0
+jade-p2  | ==========================================
+jade-p2  |  RESULTADO INTEGRAL DEL ESCENARIO
+jade-p2  | ==========================================
+jade-p2  | Escenario: escenario-5eda5308-7b47-447e-93fa-af64a5d9c89b
+jade-p2  | Producto: PROD-001
+jade-p2  | Ventas historicas: 200,220,240
+jade-p2  | Pronostico: 220
+jade-p2  | Stock actual: 300
+jade-p2  | Stock de seguridad: 30
+jade-p2  | Reposicion necesaria: 0
+jade-p2  | Estado: NO_REQUIERE_COMPRA
+jade-p2  | Inventario suficiente
+jade-p2  | ==========================================
+jade-p2  | [COORDINADOR] Escenario finalizado: escenario-5eda5308-7b47-447e-93fa-af64a5d9c89b
+jade-p2  | [COORDINADOR] Nuevo escenario: escenario-67cd6dea-edcc-4b72-814e-40493ad8306f
+jade-p2  | [COORDINADOR] ACL REQUEST enviado a: inventario@P2
+jade-p2  | [COORDINADOR] Conversacion: escenario-67cd6dea-edcc-4b72-814e-40493ad8306f
+jade-p2  | [COORDINADOR] Etapa: INVENTARIO
+jade-p2  | [COORDINADOR] Datos: PROD-001;100,120,140;70;20
+jade-p2  | [INVENTARIO] ACL REQUEST enviado a: demanda@P1
+jade-p2  | [INVENTARIO] Conversacion: escenario-67cd6dea-edcc-4b72-814e-40493ad8306f
+jade-p2  | [INVENTARIO] Solicitud: PROD-001;100,120,140
+jade-p2  | Nov 26, 2026 3:29:26 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:29:26 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-1 - Delivery-time over threshold (4014). Receiver = demanda, message size = 392
+jade-p2  | [INVENTARIO] Respuesta no correlacionada
+jade-p2  | [INVENTARIO] TIMEOUT_PRONOSTICO
+jade-p2  | [INVENTARIO] Respuesta enviada: TIMEOUT_PRONOSTICO
+jade-p2  | [COORDINADOR] Escenario no completado: escenario-67cd6dea-edcc-4b72-814e-40493ad8306f | TIMEOUT_PRONOSTICO
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:29:42 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:29:42 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-4 - Delivery-time over threshold (3969). Receiver = df, message size = 623
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:29:44 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:29:46 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:29:48 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:29:50 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:29:56 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | Nov 26, 2026 3:29:56 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-2 - Delivery-time over threshold (4000). Receiver = df, message size = 625
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:29:58 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:00 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:02 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:04 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:10 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | Nov 26, 2026 3:30:10 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-3 - Delivery-time over threshold (3979). Receiver = df, message size = 625
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:12 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:14 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:16 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:18 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:24 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:30:24 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-0 - Delivery-time over threshold (3961). Receiver = df, message size = 625
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:26 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:28 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:30 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:32 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:38 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | Nov 26, 2026 3:30:38 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-4 - Delivery-time over threshold (3969). Receiver = df, message size = 625
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:40 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:42 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:44 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:46 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:52 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:30:52 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-1 - Delivery-time over threshold (3963). Receiver = df, message size = 625
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:54 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:56 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:30:58 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:00 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:06 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:31:06 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-2 - Delivery-time over threshold (3964). Receiver = df, message size = 625
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:08 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:10 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:12 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:14 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:20 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:31:20 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-2 - Delivery-time over threshold (3966). Receiver = df, message size = 625
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:22 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:24 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:26 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:28 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:34 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:31:34 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-0 - Delivery-time over threshold (3977). Receiver = df, message size = 625
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:36 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:38 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:40 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:42 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:48 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:31:48 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-3 - Delivery-time over threshold (3960). Receiver = df, message size = 625
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:50 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:52 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:54 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:31:56 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:02 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:32:02 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-0 - Delivery-time over threshold (3990). Receiver = df, message size = 627
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:04 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:06 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:08 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:10 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:16 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | Nov 26, 2026 3:32:16 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-4 - Delivery-time over threshold (3972). Receiver = df, message size = 627
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:18 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:20 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:22 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:24 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:30 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:32:30 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-2 - Delivery-time over threshold (3974). Receiver = df, message size = 627
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:32 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:34 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:36 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:38 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:44 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:32:44 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-3 - Delivery-time over threshold (3962). Receiver = df, message size = 627
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:46 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:48 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:50 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:52 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:32:58 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:32:58 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-3 - Delivery-time over threshold (3964). Receiver = df, message size = 627
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:00 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:02 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:04 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:06 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:12 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:33:12 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-1 - Delivery-time over threshold (3987). Receiver = df, message size = 627
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:14 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:16 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:18 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:20 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:26 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:33:26 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-2 - Delivery-time over threshold (3969). Receiver = df, message size = 627
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:28 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:30 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:32 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:34 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:40 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:33:40 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-2 - Delivery-time over threshold (3963). Receiver = df, message size = 627
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:42 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:44 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:46 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:48 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:54 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | Nov 26, 2026 3:33:54 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-4 - Delivery-time over threshold (3959). Receiver = df, message size = 627
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:56 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:33:58 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:34:00 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:34:02 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:34:08 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | Nov 26, 2026 3:34:08 AM jade.core.messaging.MessageManager$Deliverer run
+jade-p2  | WARNING: Deliverer Thread Deliverer-2 - Delivery-time over threshold (3948). Receiver = df, message size = 627
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:34:10 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:34:12 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:34:14 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | Nov 26, 2026 3:34:16 AM jade.core.messaging.MessagingService deliverNow
+jade-p2  | WARNING: Cannot deliver message to address: http://jade-p1:7778/acc [jade.mtp.MTPException: jade-p1 - Caused by:  jade-p1]. Trying the next one...
+jade-p2  | [INVENTARIO] Error DF remoto: ( (action ( agent-identifier :name inventario@P2  :addresses (sequence http://jade-p2:7778/acc )) (ACLMessage) ) (MTS-error ( agent-identifier :name df@P1  :addresses (sequence http://jade-p1:7778/acc )) (internal-error "Foreign agent unreachable: No valid address contained within the AID df@P1")) )
+jade-p2  | [INVENTARIO] Consultando DF remoto: df@P1
+jade-p2  | [INVENTARIO] Direccion HTTP-MTP: http://jade-p1:7778/acc
+jade-p2  | [INVENTARIO] Servicio remoto encontrado
+jade-p2  | [INVENTARIO] Agente remoto: demanda@P1
+jade-p2  | [COORDINADOR] Nuevo escenario: escenario-345a4f5e-ebb6-41bb-ac6f-49c2627ac81b
+jade-p2  | [COORDINADOR] ACL REQUEST enviado a: inventario@P2
+jade-p2  | [COORDINADOR] Conversacion: escenario-345a4f5e-ebb6-41bb-ac6f-49c2627ac81b
+jade-p2  | [COORDINADOR] Etapa: INVENTARIO
+jade-p2  | [COORDINADOR] Datos: PROD-001;100,120,140;70;20
+jade-p2  | [INVENTARIO] ACL REQUEST enviado a: demanda@P1
+jade-p2  | [INVENTARIO] Conversacion: escenario-345a4f5e-ebb6-41bb-ac6f-49c2627ac81b
+jade-p2  | [INVENTARIO] Solicitud: PROD-001;100,120,140
+jade-p2  | [INVENTARIO] ACL INFORM recibido
+jade-p2  | [INVENTARIO] Conversacion: escenario-345a4f5e-ebb6-41bb-ac6f-49c2627ac81b
+jade-p2  | [INVENTARIO] Producto: PROD-001
+jade-p2  | [INVENTARIO] Demanda recibida: 120
+jade-p2  | [INVENTARIO] Stock disponible: 70
+jade-p2  | [INVENTARIO] Stock de seguridad: 20
+jade-p2  | [INVENTARIO] Reposicion necesaria: 70 unidades
+jade-p2  | [INVENTARIO] ALERTA: Se requiere abastecimiento
+jade-p2  | [INVENTARIO] Respuesta enviada: PROD-001;120;70
+jade-p2  | [COORDINADOR] ACL INFORM recibido de: inventario@P2
+jade-p2  | [COORDINADOR] Pronostico: 120
+jade-p2  | [COORDINADOR] Reposicion necesaria: 70
+jade-p2  | [COORDINADOR] ACL REQUEST enviado a: abastecimiento@P2
+jade-p2  | [COORDINADOR] Conversacion: escenario-345a4f5e-ebb6-41bb-ac6f-49c2627ac81b
+jade-p2  | [COORDINADOR] Etapa: ABASTECIMIENTO
+jade-p2  | [COORDINADOR] Datos: PROD-001;70
+jade-p2  | [ABASTECIMIENTO] Solicitud recibida de: coordinador@P2
+jade-p2  | [ABASTECIMIENTO] Conversacion: escenario-345a4f5e-ebb6-41bb-ac6f-49c2627ac81b
+jade-p2  | ======================================
+jade-p2  |  RECOMENDACION DE ABASTECIMIENTO
+jade-p2  | ======================================
+jade-p2  | Estado: PROVEEDOR_SELECCIONADO
+jade-p2  | Producto: PROD-001
+jade-p2  | Cantidad: 70 unidades
+jade-p2  | Proveedor: Proveedor C
+jade-p2  | Precio unitario: S/ 16.00
+jade-p2  | Costo total: S/ 1120.00
+jade-p2  | Plazo de entrega: 1 dias
+jade-p2  | Puntaje obtenido: 0.9375
+jade-p2  | ======================================
+jade-p2  | [ABASTECIMIENTO] Respuesta ACL enviada: PROVEEDOR_SELECCIONADO;PROD-001;70;Proveedor C;16.00;1120.00;1;0.9375
+jade-p2  | [COORDINADOR] ACL INFORM recibido de: abastecimiento@P2
+jade-p2  | ==========================================
+jade-p2  |  RESULTADO INTEGRAL DEL ESCENARIO
+jade-p2  | ==========================================
+jade-p2  | Escenario: escenario-345a4f5e-ebb6-41bb-ac6f-49c2627ac81b
+jade-p2  | Producto: PROD-001
+jade-p2  | Ventas historicas: 100,120,140
+jade-p2  | Pronostico: 120
+jade-p2  | Stock actual: 70
+jade-p2  | Stock de seguridad: 20
+jade-p2  | Reposicion necesaria: 70
+jade-p2  | Estado: PROVEEDOR_SELECCIONADO
+jade-p2  | Proveedor: Proveedor C
+jade-p2  | Precio unitario: S/ 16.00
+jade-p2  | Costo total: S/ 1120.00
+jade-p2  | Plazo de entrega: 1 dias
+jade-p2  | Puntaje obtenido: 0.9375
+jade-p2  | ==========================================
+jade-p2  | [COORDINADOR] Escenario finalizado: escenario-345a4f5e-ebb6-41bb-ac6f-49c2627ac81b
